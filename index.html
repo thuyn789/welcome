@@ -1,276 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML Table Design</title>
-	<!-------https://codd.cs.gsu.edu/~thuynh60/cw1/table_cw1.html -------->
+	<title>Tin's Homepage</title>
+	<style>
+		body {
+			background-image: url('media/mywall.jpg');
+		}
+	</style>
 </head>
 <body>
-	<h1>Activity 1: Creating a table</h1>
-	<h3>Tab_ex1</h3>
+	<h1>Welcome, <br/>My name is Tin Huynh</h1>
+
 	<table style="width:80%" border="1">
 		<tr>
-			<th></th>
-			<th>Monday</th>
-			<th>Tuesday</th>
-			<th>Wednesday</th>
-			<th>Thursday</th>
-			<th>Friday</th>
-		</tr>
-		<tr>
-			<td>6-7pm</td>
-			<td>look at website</td>
-			<td>free</td>
-			<td>Study</td>
-			<td>free</td>
-			<td>free</td>
-		</tr>
-		<tr>
-			<td>7-8pm</td>
-			<td>look at website</td>
-			<td>free</td>
-			<td>Study</td>
-			<td>free</td>
-			<td>free</td>
+			<th><a href="index.html">Home</a></th>
+			<th><a href="education.html">Education</a></th>
+			<th><a href="job.html">Job Exprience</a></th>
+			<th><a href="aboutme.html">About Me</a></th>
 		</tr>
 	</table>
 
-	<h3>Tab_ex2</h3>
-	<table style= "width: 80%" align = "center" border="1">
-		<tr align = "center">
-			<td width=25% height=40 bgcolor="darkred">red cell</td>
-			<td bgcolor="lightblue">light blue cell</td>
-		</tr>
-	</table>
+	<p>Hello, my name is Tin Huynh. Thank you visiting my page. <br/>I hope you will have a good day</p>
 
-	<h3>Tab_ex3</h3>
-	<table style= "width: 80%" align = "center" border="1">
-		<caption bgcolor="blue"><strong> Tabling </strong></caption>
-		<tr align = "center">
-			<td  width=25% height=70 bgcolor="red"> <p style="font-family:verdana;">red cell</p></td>
-			<td width=75% bgcolor="lightblue"> <p style="font-family: Comic Sans MS;">light blue cell</p></td>
+	<h3>Assignments and Projects</h3>
+	<p>Here is the list of all assignments and projects that I have completed in CSC 4370 Web Programming</p>
+	<table style="width:80%" border="1">
+		<caption>CSC4370/6370 Web Programming</caption>
+		<tr>
+			<th>Date</th>
+			<th>Name of Assignments</th>
+			<th>Links</th>
+			<th>Notes</th>
+		</tr>
+		<tr>
+			<td>01/24/2021</td>
+			<td>Classwork 0</td>
+			<td><a href="https://codd.cs.gsu.edu/~thuynh60/MyWebPro/index.html">Classwork 0</a></td>
+			<td>Understanding the basics</td>
+		</tr>
+		<tr>
+			<td>01/30/2021</td>
+			<td>Classwork 1</td>
+			<td><a href="https://codd.cs.gsu.edu/~thuynh60/cw1/table_cw1.html">Classwork 1</a></td>
+			<td>Understanding HTML Tables</td>
+		</tr>
+		<tr>
+			<td>02/04/2021</td>
+			<td>Homework 1</td>
+			<td><a href="https://thuyn789.github.io/welcome/index.html">Homework 1</a></td>
+			<td>Creating my first homepage</td>
+		</tr>
+		<tr>
+			<td>02/06/2021</td>
+			<td>Classwork 2</td>
+			<td><a href="https://codd.cs.gsu.edu/~thuynh60/cw2/cw2_introCSS.html">Classwork 2</a></td>
+			<td>Working with CSS</td>
 		</tr>
 	</table>
+	<br/>
 
-	<h3>Tab_ex4</h3>
-	<table style="width:80%" align = "center" border="1">
-		<caption bgcolor="red"><strong>CSC4370/6370 Timetable</strong></caption>
-		<tr bgcolor="yellow">
-			<th width=20%> </th>
-			<th width=150>Monday</th>
-			<th width=150>Tuesday</th>
-			<th width=150>Wednesday</th>
-			<th width=150>Thursday</th>
-			<th width=150>Friday</th>
-		</tr>
-		<tr>
-			<td>6-7pm</td>
-			<td>look at website</td>
-			<td>free</td>
-			<td>Implementation</td>
-			<td>free</td>
-			<td>free</td>
-		</tr>
-		<tr>
-			<td>7-8pm</td>
-			<td>look at website</td>
-			<td>free</td>
-			<td>Implementation</td>
-			<td>free</td>
-			<td>free</td>
-		</tr>
-	</table>
-	<br/><br/>
-	<h1>Activity 2: HTML Color Table</h1>
-	<table style="width:60%" border="1">
-		<caption bgcolor="red"><strong>Some HTML Colors</strong></caption>
-		<tr bgcolor="gray">
-			<th width=40>Colors</th>
-			<th width=40>Name</th>
-			<th width=40>Hexadecimal</th>
-			<th width=40>RGB</th>
-		</tr>
-		<tr>
-			<td style="background-color:#FA8072;"> </td>
-			<td>Salmon</td>
-			<td>FA8072</td>
-			<td>250-128-114</td>
-		</tr>
-		<tr>
-			<td style="background-color:rgb(255, 215, 0);"> </td>
-			<td>Gold</td>
-			<td>FFD700</td>
-			<td>255-215-0</td>
-		</tr>
-		<tr>
-			<td style="background-color:rgb(30, 144, 255);"> </td>
-			<td>Dodger Blue</td>
-			<td>1E90FF</td>
-			<td>30-144-255</td>
-		</tr>
-		<tr>
-			<td style="background-color:#D2691E;"> </td>
-			<td>Chocolate</td>
-			<td>D2691E</td>
-			<td>210-105-30</td>
-		</tr>
-		<tr>
-			<td style="background-color:rgb(143, 188, 143);"> </td>
-			<td>DarkSeaGreen</td>
-			<td>8FBC8F</td>
-			<td>143-188-143</td>
-		</tr>
-	</table>
-	<br/><br/>
-	<h1>Activity 3: Using rowspan</h1>
-	<h3>Adv_tab1</h3>
-	<table style="width:30%" align = "center" border="1">
-		<tr>
-			<td bgcolor="silver" height=100> silver cell </td>
-		</tr>
-		<tr>
-			<td bgcolor="gold" height=100> gold cell </td>
-		</tr>
-	</table>
+	<hr>
+	<a href="https://www.cs.gsu.edu">GSU Computer Science Department</a>
 
-	<h3>Adv_tab2</h3>
-	<table style="width:30%" align = "center" border="1">
-		<tr>
-			<td bgcolor="red" rowspan=2 width=75> red cell </td>
-			<td bgcolor="silver" height=100> silver cell </td>
-		</tr>
-		<tr>
-			<td bgcolor="gold" height=100> gold cell </td>
-		</tr>
-	</table>
-	<br/><br/>
-	<h1>Activity 4: Using colspan, cellspacing and cellpadding</h1>
-	<h3>Adv_tab3</h3>
-	<table style="width:30%" align = "center" border="1">
-		<tr>
-			<td bgcolor="silver" height=100> silver cell </td>
-			<td bgcolor="gold" height=100> gold cell </td>
-		</tr>
-	</table>
-	<h3>Adv_tab4</h3>
-	<table style="width:30%" align = "center" border="1">
-		<tr>
-			<td bgcolor="red" colspan=2 height=100> red cell </td>
-		</tr>
-		<tr>
-			<td bgcolor="silver" height=100> silver cell </td>
-			<td bgcolor="gold" height=100> gold cell </td>
-		</tr>
-	</table>
-	<h3>Adv_tab5</h3>
-	<table style="width:30%" align = "center" cellspacing="15" border="1">
-		<tr>
-			<td bgcolor="red" colspan=2 height=100> red cell </td>
-		</tr>
-		<tr>
-			<td bgcolor="silver" height=100> silver cell </td>
-			<td bgcolor="gold" height=100> gold cell </td>
-		</tr>
-	</table>
-	<h3>Adv_tab6</h3>
-	<table style="width:30%" align = "center" cellpadding="2" border="1">
-		<tr>
-			<td bgcolor="red" colspan=2 height=100> red cell </td>
-		</tr>
-		<tr>
-			<td bgcolor="silver" height=100> silver cell </td>
-			<td bgcolor="gold" height=100> gold cell </td>
-		</tr>
-	</table>
-	<br/><br/>
-	<h1>Activity 5: More cellspacing and cellpadding</h1>
-	<h3>Adv_tab7</h3>
-	<table style="width:30%" height="30" align = "center" cellspacing="0" cellpadding="0" border="0">
-		<tr>
-			<td bgcolor="darkred" height=15></td>
-			<td bgcolor="red"></td>
-			<td bgcolor="pink"></td>
-		</tr>
-		<tr>
-			<td bgcolor="darkblue" height=15></td>
-			<td bgcolor="blue"></td>
-			<td bgcolor="lightblue"></td>
-		</tr>
-	</table>
-	<h1>Activity 6: Time Table</h1>
-	<table style="width:30%" height="30" border="1">
-		<caption bgcolor="red"><strong>Tin's Timetable</strong></caption>
-		<tr bgcolor="lightgray">
-			<th width=10%> </th>
-			<th width=10%> </th>
-			<th colspan="3">Morning</th>
-			<th>Lunch</th>
-			<th colspan="4">Afternoon</th>
-			<th colspan="3">Evening</th>	
-		</tr>
-		<tr bgcolor="lightgray">
-			<th></th>
-			<th></th>
-			<th>9-10 am</th>
-			<th>10-11 am</th>
-			<th>11-12am</th>
-			<th>1-2pm</th>
-			<th>2-3pm</th>
-			<th>3-4pm</th>
-			<th>4-5pm</th>
-			<th>5-6pm</th>
-			<th>6-7pm</th>
-			<th>7-8pm</th>
-			<th>8-9pm</th>
-		</tr>
-		<tr>
-			<th style="background-color:#D2691E;" rowspan="3">Lecture</th>
-			<th bgcolor="lightblue">Monday</th>
-			<td colspan="2">Free</td>
-			<td colspan="2">CSC4330</td>
-			<td colspan="3">Project Meeting CSC4350</td>
-			<td colspan="2">CSC4370</td>
-			<td colspan="2">Study</td>
-		</tr>
-		<tr>
-			<th bgcolor="lightblue">Tuesday</th>
-			<td colspan="3">Free</td>
-			<td></td>
-			<td colspan="3">Project Meeting CSC4350</td>
-			<td colspan="4">Free/Study</td>
-		</tr>
-		<tr>
-			<th bgcolor="lightblue">Wednesday</th>
-			<td colspan="2">Free</td>
-			<td colspan="2">CSC4330</td>
-			<td colspan="3">Project Meeting CSC4350</td>
-			<td colspan="2">CSC4370</td>
-			<td colspan="2">Study</td>
-		</tr>
-		<tr>
-			<th style="background-color:#D2691E;" rowspan="4">Work</th>
-			<th bgcolor="lightblue">Thursday</th>
-			<td colspan="4">At Work</td>
-			<td colspan="5">Free/Meeting/Study</td>
-			<td colspan="2">Study/Free</td>
-		</tr>
-		<tr>
-			<th bgcolor="lightblue">Friday</th>
-			<td colspan="3">Free</td>
-			<td colspan="6">At Work</td>
-			<td colspan="2">Study</td>
-		</tr>
-		<tr>
-			<th bgcolor="lightblue">Saturday</th>
-			<td colspan="3">Free</td>
-			<td colspan="6">At Work</td>
-			<td colspan="2">Study</td>
-		</tr>
-		<tr>
-			<th bgcolor="lightblue">Sunday</th>
-			<td colspan="3">Free</td>
-			<td colspan="6">At Work</td>
-			<td colspan="2">Free</td>
-		</tr>
-	</table>
 </body>
 </html>
