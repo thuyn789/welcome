@@ -1,1 +1,43 @@
+/* myStyle.css */
+body{
+	padding-left: 5em;
+	padding-right: 5em;
+	font-family:
+	Georgia, "Times New Roman",
+	Times, serif; 
+}
+h3{
+	font: italic 200%;
+}
 
+p{
+	color: #333300;
+	text-align: center;
+}
+
+table{
+
+}
+
+.paragraph{
+
+}
+
+.paragraph1{
+
+}
+
+.paragraph2{
+	
+}
+
+#profile_photo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+span{
+	font-size: 3em;
+}
