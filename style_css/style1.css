@@ -6,29 +6,43 @@ body{
 	Georgia, "Times New Roman",
 	Times, serif; 
 }
+
 h3{
-	font: italic 200%;
+	text-decoration: underline;
 }
 
 p{
-	color: #333300;
 	text-align: center;
 }
 
+div.quote{
+	text-align: left;
+	font-style: italic;
+}
+
+span{
+	font-size: 3em;
+}
+
 table{
-
+	width: 80%;
 }
 
-.paragraph{
-
+table, th, td{
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.paragraph1{
-
+tr:nth-child(even) {
+	background-color: #FFE4B5;
 }
 
-.paragraph2{
-	
+tr:nth-child(odd) {
+	background-color: white;
+}
+th{
+	background-color: gray;
 }
 
 #profile_photo{
@@ -38,6 +52,23 @@ table{
 	border-radius: 20px;
 }
 
-span{
-	font-size: 3em;
+.menu, .row1, .cell{
+	width: 100%;
+	border: none;
+	table-layout: fixed;
+	background-color: #FFB775;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.paragraph{
+
+}
+
+.paragraph1{
+	font-weight: bold;
+}
+
+.paragraph2{
+	
 }
