@@ -13,6 +13,10 @@ p{
 	text-align: center;
 }
 
+div p{
+	text-align: center;
+}
+
 div.quote{
 	text-align: left;
 	font-style: italic;
@@ -20,6 +24,10 @@ div.quote{
 
 span{
 	font-size: 3em;
+}
+
+a:hover {
+  background-color: lightblue;
 }
 
 table{
