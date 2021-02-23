@@ -1,0 +1,81 @@
+/* myStyle.css */
+body{
+	background-image: url("./media/mywall.jpg");
+	padding-left: 5em;
+	padding-right: 5em;
+	font-family: serif;
+}
+
+h3{
+	text-decoration: underline;
+}
+
+p{
+	text-align: center;
+}
+
+div p{
+	text-align: center;
+}
+
+div.quote{
+	text-align: left;
+	font-style: italic;
+}
+
+span{
+	font-size: 3em;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+table{
+	width: 80%;
+}
+
+table, th, td{
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-child(even) {
+	background-color: #FFE4B5;
+}
+
+tr:nth-child(odd) {
+	background-color: white;
+}
+th{
+	background-color: gray;
+}
+
+#profile_photo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+.menu, .row1, .cell{
+	width: 100%;
+	border: none;
+	table-layout: fixed;
+	background-color: #FFB775;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.paragraph{
+
+}
+
+.paragraph1{
+	font-weight: bold;
+}
+
+.paragraph2{
+	
+}
