@@ -4,6 +4,8 @@ body{
 	padding-left: 5em;
 	padding-right: 5em;
 	font-family: serif;
+	margin: auto;
+	width: 60vw;
 }
 
 h3{
@@ -57,6 +59,7 @@ th{
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
+	width: 250px;
 }
 
 .menu, .row1, .cell{
@@ -68,6 +71,11 @@ th{
 	margin-right: auto;
 }
 
+.logo_icon{
+	width: 2%;
+}
+
 #gsu_icon{
 	float: left;
+	width: 35%;
 }
