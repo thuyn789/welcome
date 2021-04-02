@@ -29,8 +29,11 @@ span{
 	font-size: 3em;
 }
 
-tr a:hover {
-  background-color: lightblue;
+tr a:hover, ul li a:hover {animation: highlight 0.5s forwards;}
+
+@keyframes highlight {
+  from {}
+  to { background-color: lightblue;}
 }
 
 table{
