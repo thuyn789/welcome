@@ -6,6 +6,16 @@ body{
 	font-family: serif;
 	margin: auto;
 	width: 75vw;
+	animation: loading 500ms ease-out;
+}
+
+@keyframes loading{
+    0%{    
+        opacity: 0;
+    }
+    100%{        
+        opacity: 1;
+    }
 }
 
 .main_box{
@@ -80,7 +90,7 @@ nav.menu{
 	width: 35px;
 }
 
-.logo_icon{
+.logo_icon, a{
 	text-decoration: none;
 }
 
