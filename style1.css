@@ -1,4 +1,4 @@
-/* myStyle.css */
+
 body{
 	background-image: url("./media/mywall.png");
 	padding-left: 5em;
@@ -12,11 +12,7 @@ h3{
 	text-decoration: underline;
 }
 
-p{
-	text-align: center;
-}
-
-div p{
+div p.paragraph{
 	text-align: center;
 }
 
@@ -29,7 +25,7 @@ span{
 	font-size: 3em;
 }
 
-tr a:hover, ul li a:hover {animation: highlight 0.5s forwards;}
+tr:hover, ul li a:hover, nav a:hover {animation: highlight 0.5s forwards;}
 
 @keyframes highlight {
   from {}
@@ -65,13 +61,12 @@ th{
 	width: 250px;
 }
 
-.menu, .row1, .cell{
-	width: 100%;
-	border: none;
-	table-layout: fixed;
+nav.menu{
 	background-color: #FFB775;
 	margin-left: auto;
 	margin-right: auto;
+	font-weight: bold;
+	text-align:center
 }
 
 .logo_icon{
