@@ -3,19 +3,19 @@ body{
 	background-image: url("./media/mywall.png");
 	padding-left: 5em;
 	padding-right: 5em;
-	font-family: serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	margin: auto;
 	width: 75vw;
 	animation: loading 500ms ease-out;
 }
 
 @keyframes loading{
-    0%{    
-        opacity: 0;
-    }
-    100%{        
-        opacity: 1;
-    }
+	0%{    
+		opacity: 0;
+	}
+	100%{        
+		opacity: 1;
+	}
 }
 
 .main_box{
@@ -42,8 +42,14 @@ body{
 	width: 250px;
 }
 
-h3{
+.main_box h1, h3{
 	text-decoration: underline;
+}
+
+.main_box h1{
+	font-size: 38px;
+	font-family: 'Dancing Script', cursive;
+	/*font-family: 'Parisienne', cursive;*/
 }
 
 div.quote{
@@ -55,11 +61,11 @@ span{
 	font-size: 3em;
 }
 
-tr:hover, ul li a:hover, nav a:hover {animation: highlight 0.5s forwards;}
+tr:hover, nav a:hover {animation: highlight 0.5s forwards;}
 
 @keyframes highlight {
-  from {}
-  to { background-color: lightblue;}
+	from {}
+	to { background-color: lightblue;}
 }
 
 table{
@@ -84,11 +90,12 @@ th{
 }
 
 nav.menu{
-	background-color: #FFB775;
+	background-color: rgba(255, 183, 117, 0.5);;/*#FFB775*/
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: bold;
-	text-align:center
+	text-align:center;
+	font-size: 18px;
 }
 
 .logo_icon img{
@@ -105,5 +112,34 @@ nav.menu{
 }
 
 embed:focus {
-  outline: none;
+	outline: none;
+}
+
+hr{
+	border: 0;
+	height: 6px;
+	background-image: radial-gradient(
+		closest-side,
+		hsla(0, 0%, 50%, 1.0),
+		hsla(0, 0%, 50%, 0) 100%);
+}
+
+.footer-index p{
+	text-align: center;
+	margin: auto;
+}
+
+.footer-index a, .footer a, ul a{
+	color: black;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.footer .footer-contact{
+	margin-left: 15px;
 }
