@@ -22,7 +22,7 @@ body{
 	max-width: 400px;
 	height: auto;
 	background: rgba(0,0,0,0.4);
-	padding: 40px;
+	padding: 20px;
 	text-align: center;
 	margin: auto;
 	color: white;
@@ -36,11 +36,10 @@ body{
 }
 
 #profile_photo{
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
-	max-width: 250px;
+	max-width: 230px;
 }
 
 .main_box h1, h3{
