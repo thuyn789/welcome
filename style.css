@@ -19,7 +19,8 @@ body{
 }
 
 .main_box{
-	width: 400px;
+	max-width: 400px;
+	height: auto;
 	background: rgba(0,0,0,0.4);
 	padding: 40px;
 	text-align: center;
@@ -50,6 +51,11 @@ body{
 	font-size: 38px;
 	font-family: 'Dancing Script', cursive;
 	/*font-family: 'Parisienne', cursive;*/
+}
+
+.resume{
+	width: 100%;
+	height: 620px;
 }
 
 div.quote{
