@@ -40,7 +40,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
-	width: 250px;
+	max-width: 250px;
 }
 
 .main_box h1, h3{
