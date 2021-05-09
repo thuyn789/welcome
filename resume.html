@@ -26,8 +26,10 @@
 	</nav>
 	<br/><br/>
 
-	<div>
-		<embed class="resume" src="./documents/Resume-TinHuynh-git.pdf" type="application/pdf"/>
+	<div id="resume_div">
+		<embed id="resume_pdf" src="./documents/Resume-TinHuynh-git.pdf" class="hidden" type="application/pdf"/>
+
+		<img id="resume_img" src="./documents/Resume-TinHuynh-git.jpg" class="hidden" alt="resume">
 	</div>
 
 	<br/><br/>
@@ -52,5 +54,16 @@
 			</div>
 		</div>
 	</footer>
+
+	<script>
+		//load resume img if the current device is a mobile
+		var isMobile = /Android|webOS|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+		if(isMobile){
+			document.getElementById("resume_img").classList.remove("hidden");
+		}else{
+			document.getElementById("resume_pdf").classList.remove("hidden");
+		}
+	</script>
 </body>
 </html>
