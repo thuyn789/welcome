@@ -9,6 +9,7 @@
 	<link rel="icon" type="imag/gif" href="media/this_icon.png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<script src="./script/main.js"></script>
 </head>
 <body>
 	<header>
@@ -56,14 +57,7 @@
 	</footer>
 
 	<script>
-		//load resume img if the current device is a mobile
-		var isMobile = /Android|webOS|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-		if(isMobile){
-			document.getElementById("resume_img").classList.remove("hidden");
-		}else{
-			document.getElementById("resume_pdf").classList.remove("hidden");
-		}
+		pdfLoader("resume_img","resume_pdf");
 	</script>
 </body>
 </html>
