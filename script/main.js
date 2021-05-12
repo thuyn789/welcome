@@ -34,13 +34,11 @@ function getIPData() {
 
 function getTodayDate(){
 	let today = new Date();
-	let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-	return date;
+	return today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
 }
 
 function accessCount() {
-
-	let count = 0;
+	let count = 1;
 
 	var countData = {
 		count: count,
@@ -54,10 +52,8 @@ function accessCount() {
 }
 
 function locationCount(){
+	let count = 1;
 
-	let count = 0;
-	//Firebase does not allow entry string contain "."
-	//replace ip with "-"
 	let ipLocation = ipData["ipAddress"];
 
 	var countData = {
@@ -70,7 +66,7 @@ function locationCount(){
 
 	parentEntry = "location_counting";
 
-	//Firebase does not allow entry string contain "."
+	//Firebase does not allow entry name contain "."
 	//replace ip with "-"
 	childEntry = ipLocation.replace(/\./g, "-").trim();
 
