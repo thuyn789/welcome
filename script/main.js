@@ -1,8 +1,6 @@
 let ipData = getIPData();
 let date = getTodayDate().trim();
 
-console.log(ipData);
-
 function pdfLoader(imgSelector, embSelector) {
 	//load resume img if the current device is a mobile
 	var isMobile = /Android|webOS|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent);
