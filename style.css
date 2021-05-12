@@ -31,6 +31,12 @@ body{
 	transition: transform 0.5s;
 }
 
+#statistics_div{
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
 .main_box:hover{
 	transform:translateY(-10px);
 }
@@ -86,6 +92,10 @@ tr:hover, nav a:hover {animation: highlight 0.5s forwards;}
 @keyframes highlight {
 	from {}
 	to { background-color: lightblue;}
+}
+
+#statistics_div{
+	color: black;
 }
 
 table{
