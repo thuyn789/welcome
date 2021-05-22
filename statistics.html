@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="imag/gif" href="media/this_icon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+	<script src="./script/firebase-key.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Welcome</h1>
+		<br/>
+	</header>
+
+	<nav class="menu">
+		<a href="index.html">Home</a> |
+		<a href="education.html">Education</a> |
+		<a href="resume.html">Resume</a> |
+		<a href="projects.html">Projects</a> |
+		<a href="job.html">Job Exprience</a> |
+		<a href="aboutme.html">About Me</a>
+	</nav>
+	<br/><br/>
+
+	<div id="statistics_div">
+		<div id="access_count"></div><br/>
+		<a href="https://supercool-rental-default-rtdb.firebaseio.com/access_counting.json" target="_blank" download>
+			Download Access Count
+		</a><br/><br/>
+		<div id="location_count"></div><br/>
+		<a href="https://supercool-rental-default-rtdb.firebaseio.com/location_counting.json" target="_blank" download>
+			Download Location Count
+		</a><br/><br/>
+	</div><br/><br/>
+
+	<footer>
+		<hr>
+		<div class="footer-index">
+			<p>© 2021 Tin Huynh |
+				Designed and Made by 
+				<a href="mailto:thuynh0135@gmail.com" class="email">Tin Huynh</a> | 
+				Hosted on 
+				<a href="https://github.com/" target="_blank">GitHub</a> 
+			</p>
+		</div>
+	</footer>
+
+	<script src="./script/statistics.js"></script>
+	<script>
+		showAccessCount();
+		showLocationCount();
+	</script>
+</body>
+</html>
